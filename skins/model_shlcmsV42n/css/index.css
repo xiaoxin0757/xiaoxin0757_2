@@ -1,0 +1,95 @@
+/* CSS Document by 安小弈 */
+body { font-size:12px; font-family:"宋体", Arial; background:url(../images/body_bg.jpg) repeat-x; color:#666; line-height:23px; }
+* { margin:0; padding:0; }
+a { text-decoration:none; color:#333; }
+a:hover { color:#F49E09; }
+img { vertical-align:top; border:0; }
+ul, li { list-style:none; }
+/*头部*/
+#head { width:900px; height:116px; margin:0 auto; }
+#top { width:900px; height:77px; padding-top:5px; }
+#top .logo { margin:6px 0 0 25px; float:left; }
+#top .search { width:220px; height:65px; float:right; }
+#top .search p { line-height:23px; text-align:right; }
+#top .search p a { padding:0 10px; background:url(../images/a_bg.jpg) no-repeat right center; height:23px; text-decoration:none; color:#FFF}
+#top .search p a.nobg { background:none !important; }
+#top .search p input { float:left; width:180px; height:12px; border:1px solid #655F53; background:#FCF2CF; padding:3px; }
+#top .search p input.submt { display:inline-block; margin-left:5px; background:url(../images/search_but.jpg) no-repeat; width:22px; height:18px; border:1px solid #655F53; padding:0; text-indent:-999px; cursor:pointer; }
+/*导航*/
+#nav{ font-size:12px; height:34px; position:relative; z-index:100; width:900px; height:34px;}
+#nav li{ float:left; list-style:none; position:relative; width:99px; height:34px; border-right:1px solid #fff;}
+#nav a{ display:block; height:34px; width:99px; line-height:34px; background:#949494; color:#fff; text-decoration:none; text-align:center; overflow:hidden; float:left;}
+#nav a:hover{ background:#369; color:#fff; float:left;}
+#nav ul li a.selt{ background:#369; }
+#nav ul ul{ visibility:hidden; position:absolute; left:0px; top:34px; width:97px; }
+#nav ul li:hover ul.second, #nav ul a:hover ul.second { visibility:visible; }
+#nav ul ul li { clear:both; text-align:left; border-right:none;}
+#nav ul ul a:hover { background:black; color:white; }
+#nav .third{ top:0px; left:100px; width:97px;}
+#nav ul ul li:hover ul.third, #nav ul ul a:hover ul.third { visibility:visible; }
+#nav ul ul a:hover { background:#000; color:white; }
+#nav ul ul ul li{ border-right:none;}
+#nav ul ul ul a { background:#000;}
+#nav ul ul ul a:hover { background:#B45B3E; color:#369; }
+#nav table{ border-collapse:collapse; }
+/*中间部分*/
+#center { width:900px; margin:0 auto; height:auto; clear:both; overflow:hidden; }
+/*banner开始*/
+.focusbox { width:898px; height:268px; border:1px solid #e2e2e2; margin:15px auto; clear:both; position:relative; overflow:hidden; z-index:0; }
+.focusbox .slideCon { width:898px; position:absolute; top:0; left:0; }
+.focusbox .slideCon a { float:left; }
+.focusbox .slideCon img { width:898px; height:268px; }
+.focusnav { position:absolute; bottom:5px; right:5px; }
+.focusnav li { float:left; width:22px; height:22px; line-height:22px; background:#ccc; font-size:12px; color:#f60; font-family:"\9ED1\4F53"; display:inline; margin-left:4px; text-align:center; cursor:pointer; position:relative; z-index:0; }
+.focusnav li span { width:22px; height:22px; position:absolute; display:line-block; top:0; left:0; }
+.focusnav li b { width:22px; height:22px; position:absolute; top:0; left:0; display:line-block; z-index:1; text-decoration:none; font-weight:normal; }
+.focusnav li.select { background:#007CC2; color:#fff; }
+/*banner结束*/
+.intro { width:900px; clear:both; }
+.sid_lft { width:555px; float:left; background:url(../images/lft_bg.jpg) no-repeat left top; padding-top:70px; height:835px; }
+.shl_blogo { clear:both; border:1px solid #e2e2e2; width:283px; margin:0 auto 20px; padding:10px; text-align:center; }
+.sid_lft .txt { width:490px; text-indent:24px; clear:both; padding-left:10px; }
+.sid_lft .x_line { width:490px; height:2px; background:url(../images/x_line.jpg) repeat-x left bottom; margin:35px 0 35px 10px; }
+.sid_rgt { width:340px; float:right; background:url(../images/rgt_bg.jpg) no-repeat left top; padding-top:60px; height:845px; }
+.flow { background:#f0f0f0; width:305px; padding:0 15px 0 20px; height:128px; }
+.minhegt { height:55px !important; }
+.ftop_pad { padding:10px 15px 0 20px; }
+.flow_step { width:240px; margin:0 auto; height:auto; }
+.flow_step_lft { background:url(../images/step_bg.jpg) no-repeat; width:160px; float:left; }
+.flow_step_lft h2 { color:#FF9300; font-size:14px; font-weight:bold; text-align:center; line-height:40px; }
+.arrow { background:url(../images/arrow.jpg) no-repeat; width:27px; height:89px; margin:0 auto; clear:both; }
+.flow_step_rgt { width:135px; padding:0 0 0 8px; float:right; }
+.flow_step_rgt a { color:#007CC2; padding:0 2px; display:inline; }
+.flow_step_rgt a:hover { color:#f60; }
+.cont_foot { width:898px; height:98px; border:1px solid #e2e2e2; background:#f0f0f0; clear:both; margin:15px auto; }
+.cont_foot li { background:url(../images/li_line.jpg) no-repeat right center; width:179px; height:98px; float:left; text-align:center; }
+.cont_foot li.nobg { background:none; }
+.cont_foot li img { margin:15px auto; }
+/*common页中间部分*/
+#menu { width:200px; float:left; margin-right:15px; height:auto; }
+#menu a { background:url(../images/menu_bg.jpg); width:200px; height:30px; margin:0 0 15px 0; text-align:left; line-height:30px; color:#2d2d2d; font-size:14px; font-weight:bold; display:block; text-indent:20px;}
+#menu a:hover, #menu a.selt { background:url(../images/selt_bg.jpg); color:#fff; }
+#menu img { border:1px solid #e2e2e2; margin:5px 0 20px 0; }
+#com_cont { width:685px; float:right; }
+#com_cont .tit { background:url(../images/x_line.jpg) left bottom repeat-x; height:30px; line-height:30px; }
+#com_cont .tit a { color:#6d6d6d; }
+#com_cont .tit a:hover { color:#007cc2; }
+#com_cont .com_txt { background: none; border: none; border-bottom:none; height: auto !important; min-height: 500px; width: 683px; padding-top:10px;}
+/*底部*/
+#foot { width:100%; background:#222; height:130px; color:#fff; font-family:Arial, Helvetica, sans-serif; }
+.foot_cont { width:900px; margin:0 auto; }
+.foot_lft { width:495px; float:left; background:url(../images/foot_line.jpg) right center no-repeat; margin:0 20px 0 0; height:110px; padding-top:20px; position:relative; }
+.foot_lft img { position:absolute; left:130px; top:93px; }
+.foot_rgt { width:200px; float:right; background:url(../images/foot_logo.jpg) no-repeat left center; padding-left:180px; height:110px; padding-top:20px; }
+/*自适应高度*/
+#center:after { display:block; height:0; clear:both; visibility:hidden; }
+#center { display:inline-block; }
+/*\*/
+#center { display:block; }
+/* end easy clearing */
+/*\*/
+#sid_lft, #sid_rg, #menu, #com_cont { padding-bottom:32767px !important; margin-bottom:-32767px !important; }
+@media all and (min-width: 0px) {
+#sid_lft, #sid_rg, #menu, #com_cont { padding-bottom:0 !important; margin-bottom:0 !important; }
+#sid_lft:before, #sid_rg:before, #menu:before, #com_cont:before { content: ''; display:block; background:inherit; padding-top:32767px !important; margin-bottom:-32767px !important; height:0; }
+}

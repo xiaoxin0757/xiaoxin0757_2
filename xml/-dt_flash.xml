@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<bcaster>
+	<config>
+		<title_text_color value="0x000000:文字颜色" />
+		
+		<title_text_position value="2:文字位置" />
+		
+		<title_bg_color value="0xff6600:文字背景颜色" />
+		
+		<title_bg_alpha value="60:文字背景透明度" />
+		
+		<btn_text_color value="0xffffff:按键文字颜色" />
+		
+		<btn_over_color value="0xff6600:按键默认颜色" />
+		
+		<btn_out_color value="0x000033:按键当前颜色" />
+		
+		<autoPlayTime value="8:自动播放时间(秒)" />
+		
+		<transformFlag value="2:图片过渡效果" />
+		
+		
+		<btn_show value="1:是否显示按钮" />
+		
+		<target value="_blank:打开窗口" />
+	
+	</config>
+	<imgs>
+		<item item_url="http://localhost:8080/upload/200710/20071027095455797.jpg" link="http://www.deepthroat.com.cn" itemtitle="世界热气球比赛" />
+		<item item_url="http://localhost:8080/upload/200710/200710270955095.jpg" link="http://www.deepthroat.com.cn" itemtitle="多色多彩的热气球" />
+		<item item_url="http://localhost:8080/upload/200710/20071027095519831.jpg" link="http://www.deepthroat.com.cn" itemtitle="四只热气球" />
+		<item item_url="http://localhost:8080/upload/200710/20071027095529300.jpg" link="http://www.deepthroat.com.cn" itemtitle="满天热气球" />
+	</imgs>
+	
+</bcaster>
+
+

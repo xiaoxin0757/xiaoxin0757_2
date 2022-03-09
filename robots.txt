@@ -1,0 +1,15 @@
+#
+# robots.txt for 34FLY! Board
+# Version 4.2.0
+#
+
+User-agent: *
+
+Disallow: /admini/
+Disallow: /config/
+Disallow: /editor/
+Disallow: /inc/
+Disallow: /setup/
+Disallow: /temp/
+Disallow: /webeditor/
+Disallow: /xml/
